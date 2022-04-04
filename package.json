@@ -1,0 +1,19 @@
+{
+  "name": "twilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.69.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
